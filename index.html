@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.A Alom Bus</title>
+    <!-- daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-green {
+            background-color: green;
+        }
+    </style>
+    <!-- Tailwind -->
+</head>
+
+<body>
+    <header class="">
+        <div class="flex justify-around">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Hoem</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destiantion</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl font-extrabold ml-20">Online-Tickt</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Hoem</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destiantion</a></li>
+                        <li><a>Search</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end mr-20 ">
+                    <button class="btn font-extrabold ">BUS <img src="./images/bus-icon.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="first-page">
+            <div class="flex justify-center">
+                <img class="" src="./images/banner.png" alt="">
+            </div>
+            <div class="flex justify-center gap-8 relative bottom-8 ">
+                <div class="git init  space-y-5 text-center w-50% absolute bottom-44 left-60 ">
+                    <h3 class="text-white font-extrabold text-5xl">Ent to End Traval with <br> <span
+                            class="text-green-700">X-Poribahan</span></h3>
+                    <p class="text-white">Yes, you can run unit tests and view the results directly within the app. The
+                        integrated
+                        testing
+                        features allow for a streamlined .</p>
+                    <button onclick="buy()" class="btn btn-success ">Buy Tickt</button>
+                </div>
+                <div class="flex rounded-xl border-b-8 border-green-800 w-[300px] h-[100px] items-center bg-white ">
+                    <img src="./images/people.png" alt="">
+                    <h3 class=" space-y-5 ml-10"><span class="text-3xl font-semibold">500K+</span>
+                        <br>
+                        <span class="tex-[18px]">Registret user</span>
+                    </h3>
+
+                </div>
+                <div class="flex rounded-xl border-b-8 border-green-800 w-[300px] h-[100px] items-center bg-white ">
+                    <img src="./images/ticket-cupon.png" alt="">
+                    <h3 class=" space-y-5 ml-10"><span class="text-3xl font-semibold">1.7 Lacks</span>
+                        <br>
+                        <span class="tex-[18px]">Tickt Sold</span>
+                    </h3>
+
+                </div>
+                <div class="flex rounded-xl border-b-8 border-green-800 w-[300px] h-[100px] items-center bg-white ">
+                    <img src="./images/stoppage.png" alt="">
+                    <h3 class=" space-y-5 ml-10"><span class="text-3xl font-semibold">80k+</span>
+                        <br>
+                        <span class="tex-[18px]">Rental Partners</span>
+                    </h3>
+
+                </div>
+            </div>
+        </section>
+        <section id="second-page" class="">
+            <div class="flex gap-5 rounded-x mr-10 ">
+                <div class="ml-[120px]">
+                    <div class="rounded-full   bg-white h-5 w-5 relative left-[343px] top-[15px]">
+
+                    </div>
+                    <div class="flex rounded-xl ">
+
+                        <div class="bg-[#FFBF0F] rounded-xl text-center w-[350px] space-5 p-8 ">
+                            <h3 class="text-3xl font-semibold">15% off </h3><br>
+                            <h3 class="text-[18px]">In your next parxhes</h3>
+                            <h3>use by januay 2023 </h3>
+                        </div>
+                        <div class="border-r-4 border-dotted">
+
+                        </div>
+                        <div class=" bg-[#FFBF0F] flex justify-center rounded-xl items-center w-[200px]">
+                            <h3 class="text-2xl font-semibold">NEW15 <br> <span class="text-[18px] text-">Cupon
+                                    Code</span>
+                            </h3>
+
+                        </div>
+                    </div>
+                    <div class="rounded-full  bg-white h-5 w-5 relative left-[343px] bottom-[15px]">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="rounded-full  bg-white h-5 w-5 relative left-[343px] top-[15px]">
+
+                    </div>
+                    <div class="flex  ">
+
+                        <div class="bg-[#F78C9C] rounded-xl text-center w-[350px] space-5 p-8 ">
+                            <h3 class="text-3xl font-semibold">15% off </h3><br>
+                            <h3 class="text-[18px]">In your next parxhes</h3>
+                            <h3>use by januay 2023 </h3>
+                        </div>
+                        <div class="border-r-4 border-dotted">
+
+                        </div>
+                        <div class=" bg-[#F78C9C] flex justify-center rounded-xl items-center w-[180px]">
+                            <h3 class="text-2xl font-semibold">NEW15 <br> <span class="text-[18px] text-">Cupon
+                                    Code</span>
+                            </h3>
+
+                        </div>
+                    </div>
+                    <div class="rounded-full  bg-white h-5 w-5 relative left-[343px] bottom-[15px]">
+
+                    </div>
+                </div>
+            </div>
+            <div class="relative left-[48%]">
+                <button class="btn btn-outline btn-success w-auto  ">See all Offer</button>
+
+            </div>
+        </section>
+        <!-- Buy thickit -->
+        <section id="third-pade" class="mt-24">
+            <div class="bg-[#F7F8F8] border-t-4 rounded-xl border-green-800">
+                <div class="text-center space-y-10">
+                    <h3 class="text-4xl font-semibold">X-Paribahan</h3>
+                    <p>You can try this app or better experience . It will give you whole new level of booking
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex justify-around">
+                <div>
+                    <div class="flex justify-around ">
+                        <div class="flex mt-10 items-center ">
+                            <div> <img src="./images/bus-logo.png" alt="">
+                            </div>
+                            <div class="ml-10">
+                                <h3 class="text-3xl">X-Paribaha</h3>
+                                <p>Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-green-300 relative top-[40px]  w-[110px] h-[30px] text-center rounded-md flex items-center justify-center">
+                            <img src="./images/seat-green.png" alt="">
+                            <h3 class="text-green-700"> 40 sit left</h3>
+                        </div>
+                    </div>
+                    <div class=" mt-10  bg-slate-300">
+                        <div class="flex justify-around mt-5">
+                            <h3>
+                                Route
+                            </h3>
+                            <h3 class="font-bold">
+                                Dhaka-Syhlet
+                            </h3>
+                        </div>
+                        <div class="border-b-4 border-dotted border-gray-600 mt-5"></div>
+                        <div class="flex justify-around mt-10">
+                            <h3>
+                                Departure Time
+                            </h3>
+                            <h3 class="font-bold">
+                                09.0PM
+                            </h3>
+                        </div>
+                        <div class="flex justify-between mt-10 gap-10">
+                            <h3
+                                class="bg-slate-200 w-[220px] rounded-md text-center h-[40px] flex justify-center items-center">
+                                Boarding Point - Laxmipur
+                            </h3>
+                            <h3
+                                class="bg-slate-200 w-[220px] rounded-md text-center h-[40px] flex justify-center items-center">
+                                Dropping Point - Bogura
+                            </h3>
+                            <h3
+                                class="bg-slate-200 w-[220px] rounded-md text-center h-[40px] flex justify-center items-center">
+                                Est. Time - 11 Hour
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-r-4 border-dotted border-green-400">
+
+                </div>
+                <div class="felx items-center relative top-[100px]">
+                    <img class="relative left-7" src="./images/fare.png" alt="">
+                    <div class="">
+                        <h3 class="text-4xl font-semibold">500TK</h3>
+                        <h2 class="text-[20px] text-center">Per sit</h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="But-tickt" class="mt-24 ml-10  ">
+            <div class=" flex justify-between w 1/2">
+                <div class="">
+                    <h3 class="text-2xl font-semibold">Slect Your sit</h3>
+                    <div class="border-t-4 border-dotted border-gray-500"></div>
+
+
+                    <div class="flex justify-between">
+                        <h3> Avilable</h3>
+                        <div class="flex gap-2">
+                            <img src="./images/seat-green-filled.png" alt="">
+                            <h3 class="text-green-600">Selected</h3>
+                        </div>
+                    </div>
+                    <div class="border-t-4 border-dotted border-gray-500"></div>
+                    <div class="ml-10 mt-10">
+                        <div class="grid grid-cols-6 gap-5 ">
+
+                            <div class="col-span-1 "><button>A</button></div>
+                            <div class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center "><button>A1</button>
+                            </div>
+                            <div class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center"><button>A2</button>
+                            </div>
+                            <div class="col-span-1 h-8 w-10"></div>
+                            <div class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center"><button>A3</button></div>
+                            <div class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center"><button>A4</button></div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">B</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">B1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">B2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">B3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">B4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">C</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">C1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">C2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">C3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">C4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">D</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">D1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">D2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">D3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">D4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">E</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">E1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">E2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">E3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">E4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">F</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">F1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">F2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">F3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">F4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">G</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">G1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">G2</div>
+                            <div id="A" class="col-span-1 h-8 w-10"></div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">G3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">G4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">H</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">H1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">H2</div>
+                            <div id="A" class="col-span-1 h-8 w-10">
+                            </div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">H3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">H4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id=A class="col-span-1 ">I</div>
+                            <div id=A class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">I1</div>
+                            <div id=A class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">I2</div>
+                            <div id=A class="col-span-1 h-8 w-10">
+                            </div>
+                            <div id=A class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">I3</div>
+                            <div id=A class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">I4</div>
+                        </div>
+                        <div class="grid grid-cols-6 gap-5 mt-5 ">
+
+                            <div id="A" class="col-span-1 ">J</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">J1</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">J2</div>
+                            <div id="A" class="col-span-1 h-8 w-10">
+                            </div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">J3</div>
+                            <div id="A" class="col-span-1 h-8 w-10 bg-gray-400 rounded text-center">J4</div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <h3 class="text-2xl font-semibold">Select Your Seat</h3>
+                    <div class="mt-10">
+                        <table class="table p-10 bg-slate-100">
+                            <thead>
+                                <tr>
+                                    <th>Seat</th>
+                                    <th>Class</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Blank</td>
+                                    <td>Economy</td>
+                                    <td>00.00tk</td>
+                                </tr>
+                                <tr>
+                                    <td>Blank</td>
+                                    <td>Economy</td>
+                                    <td>00.00tk</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="mt-10 space-y-5">
+                        <h3 class="text-[16px] font-semibold">Passenger Name</h3>
+                        <input class="w-[500px] h-10 border rounded-md p-5 border-gray-400 " type=" text"
+                            placeholder=" Enter Your Name">
+                        <h3 class="text-[16px] font-semibold">Phone nUmber</h3>
+                        <input class="w-[500px] h-10 border rounded-md p-5 border-gray-400 " type="text"
+                            placeholder="Enter your Phone Numebr">
+                        <h3 class="text-[16px] font-semibold">
+                            Email ID
+                        </h3>
+                        <input class="w-[500px] h-10 border rounded-md p-5 border-gray-400 " type="text"
+                            placeholder="Email-ID"> <br>
+                        <button class="btn btn-success w-[500px]">Next</button>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+        </section>
+
+
+
+    </main>
+    <footer class="mt-24">
+        <div class="">
+            <footer class="footer p-10 bg-neutral text-neutral-content ">
+                <div class="flex justify-between">
+                    <div>
+                        <div>
+                            <h3 class="text-4xl font-extrabold">X-Paribahan</h3>
+                            <p>Buy Your Tickit Inline and enjoy your ride . Make life better with us</p>
+                        </div>
+
+                    </div>
+
+                    <div class="relative left-[600px]">
+                        <h3 class="text-[18px] mb-5 text-white">Download our app</h3>
+                        <div class="flex justify-between border border-white p-2 gap-4">
+                            <img src="./images/playstore.png" alt="">
+                            <div class="">
+                                <h3 class="text-[16px]">Get on</h3>
+                                <h2 class="text-[20px] text-white">Google Play</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+        <div class="border border-b-4 border-dotted border-gray-100">
+
+        </div>
+
+    </footer>
+    <script src="./js code/script.js"></script>
+    <script src="./js code/unityall.js"></script>
+
+</body>
+
+</html>
